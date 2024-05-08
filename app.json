@@ -3,6 +3,7 @@
     "name": "AppHocTap",
     "slug": "AppHocTap",
     "version": "1.0.0",
+    "scheme": "codebox",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -21,10 +22,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.tranlochai.codebox",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4bb47bad-2608-4492-86ea-59cc2cb0fcb2"
+      }
     }
   }
 }
